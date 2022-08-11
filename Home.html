@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>web design</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="menuitem">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="cat.html">Catagory</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Location</a></li>
+                        <li><a href="#">LogOut</a></li>
+                        <li><a href="cart.html"><img src="cart.png" width="30px" height="30px"></a></li>
+                    </ul>
+                </nav>
+                <img src="menu.png" class="menu" onclick="slide()">
+            </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Give Your Workout A <br>New Style</h1>
+                <a href="#" class="btn">Explore Now!</a> 
+            </div>
+            <div class="col-2">
+                <img src="image1.png">
+            </div>
+        </div>
+        </div>
+    </div>
+<!----feautures----->
+<div class="catagories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="category-2.jpg">
+            </div><div class="col-3">
+                <img src="category-3.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured product-->
+<div class="small-container">
+    <h2 class="title"> Featured product</h2>
+  <div class="row">
+      <div class="col-4">
+          <img src="product-1.jpg">
+          <h4>Red printed</h4>
+          <p>250.00</p>
+      </div>
+      <div class="col-4">
+        <img src="product-2.jpg">
+        <h4>Red printed</h4>
+        <p>250.00</p>
+    </div>
+    <div class="col-4">
+        <img src="product-3.jpg">
+        <h4>Red printed</h4>
+        <p>250.00</p>
+    </div>
+    <div class="col-4">
+        <img src="product-4.jpg">
+        <h4>Red printed</h4>
+        <p>250.00</p>
+    </div>
+  </div>
+  <h2 class="title">Latest Products</h2>
+  <div class="row">
+    <div class="col-4">
+        <img src="product-5.jpg">
+        <h4>Red printed</h4>
+        <p>250.00</p>
+    </div>
+    <div class="col-4">
+      <img src="product-6.jpg">
+      <h4>Red printed</h4>
+      <p>250.00</p>
+  </div>
+  <div class="col-4">
+      <img src="product-7.jpg">
+      <h4>Red printed</h4>
+      <p>250.00</p>
+  </div>
+  <div class="col-4">
+      <img src="product-8.jpg">
+      <h4>Red printed</h4>
+      <p>250.00</p>
+  </div>
+</div>
+<div class="row">
+    <div class="col-4">
+        <img src="product-9.jpg">
+        <h4>Red printed</h4>
+        <p>250.00</p>
+    </div>
+    <div class="col-4">
+      <img src="product-10.jpg">
+      <h4>Red printed</h4>
+      <p>250.00</p>
+  </div>
+  <div class="col-4">
+      <img src="product-11.jpg">
+      <h4>Red printed</h4>
+      <p>250.00</p>
+  </div>
+  <div class="col-4">
+      <img src="product-12.jpg">
+      <h4>Red printed</h4>
+      <p>250.00</p>
+  </div>
+</div>
+</div>
+<!--Offer-->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusive Available on BG</p>
+                <h1>small band 4</h1>
+                <a href="" class="btn">Buy Now &#8594;</a>
+       </div>
+        </div>
+    </div>
+</div>
+<!------------------foot---------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Follow US</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Whatsapp</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="cpy">&copy;Copyright 2020-Raj_Mathew</p>
+    </div>
+</div>
+
+<script>
+    var menuitem = document.getElementById("menuitem");
+
+    menuitem.style.maxHeight = "0px";
+    function slide(){
+        if(menuitem.style.maxHeight == "0px")
+          {
+              menuitem.style.maxHeight = "200px"
+          }
+        else{
+            menuitem.style.maxHeight = "0px"
+        }
+    }
+</script>
+</body>
+</html>
